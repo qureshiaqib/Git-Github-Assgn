@@ -1,1 +1,50 @@
-a
+1. mkdir Git-Github-Assign
+2. cd Git-Github Assgn
+3. git init
+
+4. notepad File1.txt
+5. notepad File2.txt
+6. notepad File3.txt
+
+7. git status
+
+8. git checkout -b Dev
+9. git add File1.txt
+10. git commit -m "Commit File1.txt"
+
+11. git status
+
+12. git checkout -b Test
+13. git add File2.txt
+14. git add File3.txt
+15. git commit -m "Commit File2.txt and File3.txt in Test"
+
+16. git status
+
+17.git checkout Dev
+18. notepad File1.txt (Changes in the file)
+19. git status
+20.git diff
+
+25. git add File1.txt
+26. git commit -m "changes in File1.txt"
+
+22.git switch master
+27. git merge Dev
+28. git merge Test
+
+29.ls (To check all files are available after merge)
+
+30. git remote add origine https://github.com/qureshiaqib/Git-Github-Assgn.git
+31. git remote -v
+32. git push -u origine master
+
+33. created a new repository at diffrent location 
+
+34. git clone https://github.com/qureshiaqib/Git-Github-Assgn.git
+35. cd Git-Github-Assgn
+36. notepad solution.txt
+37. git add solution.txt
+38. git commit -m "Added command in solution.txt"
+
+35. git push 
